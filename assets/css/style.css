@@ -1,0 +1,39 @@
+    /* agregando estilos con etiquetas  */
+    body {
+      color: blue;
+      background-color: rgb(28, 158, 76);
+    }
+
+    h1 {
+      color: blueviolet;
+      background-color: rgb(83, 63, 2);
+      margin: 2rem ;
+      padding: 1rem;
+      border: solid blue 0.5em;
+
+    }
+
+
+    /* agregando estilos con clases  */
+    .header_css {
+      background-color: brown;
+      text-align: center;
+      display: flex;
+      justify-content: flex-end;
+
+    }
+    .img_cv{
+      padding-left: 50%;
+    }
+
+    .precios{
+      display: flex;
+    }
+    .img_producto{
+      margin: 1rem 20rem 1rem 2rem ;
+    }
+
+    /* agregando estilos  con id  */
+    #header_id {
+      background-color: rgb(205, 152, 20);
+    }

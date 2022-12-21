@@ -1,0 +1,115 @@
+/* cabcera de pagina */
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(110, 111, 112);
+  display: flex;
+  
+  justify-content: space-around;
+
+
+  
+}
+.div_text_flores{
+  margin: 0;
+  padding: 0;
+  padding-top: 2.5rem;
+  padding-left: 5rem;
+  
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+.img_planta{
+  width: 18rem;
+  border-radius: 1rem;
+  
+
+}
+.div_img_flores{
+  
+  border-radius: 2rem;
+  padding-left: 50%;
+
+}
+.planta{
+  font-size: 3rem;
+  font-weight: lighter;
+}
+.div_text_flores h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+h1,h4{
+  margin: 0;
+  padding: 0;
+}
+strong{
+  padding: 0;
+  margin: 0;
+}
+.h4_header{
+  font-family: monospace;
+}
+
+/* secction principal */
+.section_principal_1{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+
+}
+.div_principal_1{
+border-radius: 2.5rem;
+}
+
+.div_principal_2{
+  margin-left: 1%;
+  display: flex;
+  text-align: left;
+  flex-flow: column wrap;
+  padding-top: 4rem;
+}
+.img_principal{
+  width: 18rem;
+  border-radius: 2.5rem;
+
+}
+.p_principal{
+  margin: 0;
+}
+main{
+  
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* footer */
+footer{
+  background-color: yellow ;
+  text-align: center;
+  padding: 2rem;
+}
+.a_footer p:hover {
+  border: solid rgb(54, 211, 6);
+  text-decoration: none;
+  background-color: brown;
+}
+.a_footer p{
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 4rem;
+  margin-left: 40%;
+  margin-right: 40%;
+  color: aliceblue;
+  padding: 0.5rem;
+
+}
+.a_footer{
+  text-decoration: none;
+}
+
